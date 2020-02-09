@@ -29,9 +29,9 @@ public class Exercise2 {
 
         Salidas
 
-        Subtotal                    (n:subtotal, t:real)             4000
-        Impuestos                   (n:impuestos, t:real)            0
-        Total                       (n:totalFactura, t:real)         4000
+        Subtotal                    (n:subtotal, t:real)             4000   4000
+        Impuestos                   (n:impuestos, t:real)            0      1500
+        Total                       (n:totalFactura, t:real)         4000   5500
         
         */
         // Definición de Variables
@@ -51,7 +51,7 @@ public class Exercise2 {
         String estaExcento = in.readLine();
 
         if (estaExcento.equals("Si")) {
-            iva = 0; //Si no esta excente el I.V.A prevalece en 0.13
+            iva = 0; //Si no esta excento el I.V.A prevalece en 0.13
         }
 
         //Calcular el subtotal
