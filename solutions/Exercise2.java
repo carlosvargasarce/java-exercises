@@ -14,7 +14,7 @@ public class Exercise2 {
         Haga un algorítmo para una caja de supermercado. Que recibe el nombre del producto, la cantidad de unidades, el precio y si esta excento o no y calcule el subtotal, el IVA (aplicando el 13%) y total de factura.
 
 
-        Definición del problema: Calcular el subtotal, el IVA y el total de la factura de un producto de supermercado, del cual conocemos el nombre, la cantidad de unidades, el precio y si esta o no excento.
+        Definición del problema: Calcular el subtotal, los impuestos y el total de la factura de un producto de supermercado, del cual conocemos el nombre, la cantidad de unidades, el precio y si esta o no excento.
 
         Análisis: 
 
