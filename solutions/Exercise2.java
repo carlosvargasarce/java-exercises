@@ -46,7 +46,7 @@ public class Exercise2 {
         out.print("Ingresa la cantidad de unidades del producto: ");
         int cantidad = Integer.parseInt(in.readLine());
         out.print("Ingresa el precio del producto: ");
-        double precio = Integer.parseInt(in.readLine());
+        double precio = Double.parseDouble(in.readLine());
         out.print("¿Esta excento el producto? Si/No: ");
         String estaExcento = in.readLine();
 
@@ -63,6 +63,7 @@ public class Exercise2 {
         //Calcular el total de la factura
         totalFactura = subtotal + impuestos;
 
+        //Salidas
         out.println("Resultados del producto: " + nombre);
         out.println("El subtotal es de " + subtotal + " Colones");
         out.println("Los impuestos son de " + impuestos + " Colones");
