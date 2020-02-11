@@ -17,38 +17,23 @@ public class Exercise1 {
         //Entradas
         out.print("Digite un número entero: ");
         int numero = Integer.parseInt(in.readLine());
+        
         //Solución
-        boolean isPar = false;
-        boolean isPositive = false;
-
         if (numero == 0) {
             out.println("Debes ingresar un número mayor o menor a 0");
         } else {
             //Determinar si es positivo (Si gustas puedes hacer las salidas aquí directamente)
             if (numero > 0) {
-                isPositive = true;
+                out.println("El número " + numero + " positivo");
             }else {
-                isPositive = false;
+                out.println("El número " + numero + " es negativo");
             }
             //Determinar si es par
             if (numero % 2 == 0) {
-                isPar = true;
+                out.println("El número " + numero + " es par");
             }else {
-                isPar = false;
+                out.println("El número " + numero + " es inpar");
             }
-        }
-        
-        //Salidas
-        if (isPar) {
-            out.println("El número " + numero + " es par");
-        } else {
-            out.println("El número " + numero + " es inpar");
-        }
-
-        if (isPositive) {
-            out.println("El número " + numero + " positivo");
-        } else {
-            out.println("El número " + numero + " es negativo");
         }
     }
 }

@@ -9,7 +9,7 @@ public class Exercise2 {
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     static PrintStream out = System.out;
 
-    public static void maincString[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         /*
         Haga un algorítmo para una caja de supermercado. Que recibe el nombre del producto, la cantidad de unidades, el precio y si esta excento o no y calcule el subtotal, el IVA (aplicando el 13%) y total de factura.
 
