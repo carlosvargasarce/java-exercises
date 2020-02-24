@@ -30,21 +30,21 @@ public class Exercise10 {
         //Definición de Variables
         int cantidadPuntosExtra = 0;
         char clasificacion = ' ';
-        int promedio;
+        double promedio;
 
         //Entradas
         out.printf("¿Cúal es el nombre del estudiante: ? ");
         String nombre = in.readLine();
         out.printf("¿Cúal fue la nota en Matemáticas? ");
-        int notaMate = Integer.parseInt(in.readLine());
+        double notaMate = Double.parseDouble(in.readLine());
         out.printf("¿Cúal fue la nota en Física? ");
-        int notaFisica = Integer.parseInt(in.readLine());
+        double notaFisica = Double.parseDouble(in.readLine());
         out.printf("¿Cúal fue la nota en Sociales? ");
-        int notaSociales = Integer.parseInt(in.readLine());
+        double notaSociales = Double.parseDouble(in.readLine());
         out.printf("¿Cúal fue la nota en Ciencias? ");
-        int notaCiencias = Integer.parseInt(in.readLine());
+        double notaCiencias = Double.parseDouble(in.readLine());
         out.printf("¿Cúal fue la nota en Español? ");
-        int notaEspanol = Integer.parseInt(in.readLine());
+        double notaEspanol = Double.parseDouble(in.readLine());
 
         if (notaMate > 90 && notaFisica > 90) {
             promedio = (notaMate + notaFisica + notaSociales + notaCiencias + notaEspanol) / 5;
