@@ -14,10 +14,14 @@ public class Exercise11 {
 
     public static void main(String[] args) throws IOException {
         /*
-            La empresa de contabilidad “El Evasor", le ha solicitado a usted que le diseñe un programa de software que le permita, recibiendo la información necesaria, imprimir el detalle de la declaración de impuestos de cada año de un contribuyente. 
-            Para hacer el cálculo de impuestos, de una manera muy resumida, los contribuyentes tienen que calcular su total de ingresos y su total de gastos deducibles de impuesto, según la ley.  Esto da como resultado su renta gravable.  Una vez que se tiene ese dato, se calcula el impuesto, de manera escalonada, siguiendo el esquema presentado en la tabla número uno.  Si una empresa, por ejemplo, obtuvo una renta gravable de 70 millones de colones al año, deberá pagar por los primeros 31,043,000 un 10 %.  Luego tiene que restar a 70 millones los 31,043,000 millones, lo que le deja un saldo de 38, 957,000 colones.  Sobre estos debe pagar un 20 %, y así sucesivamente.  
-            A cada cliente, la empresa le cobra una comisión que tiene que ver con el porcentaje que es la renta gravable de sus ingresos.  El porcentaje de la comisión se presenta en la tabla número dos.
+            La empresa de contabilidad “El Evasor" le ha solicitado que diseñe un programa de software que le permita, dada la información necesaria, imprimir el detalle de un proceso sobre la declaración de impuestos de sus clientes jurídicos.
+            Para ejecutar el proceso un cliente tiene que indicar su total de ingresos y su total de gastos deducibles de impuesto según la ley; la diferencia de
+            estos da como resultado su renta gravable. El proceso de la empresa utiliza esta renta gravable para calcular el impuesto de manera escalonada
+            siguiendo el esquema presentado en la tabla número uno.
+            A cada cliente la empresa le cobra una comisión basada en el porcentaje que representa la renta gravable de sus ingresos totales, la comisión es
+            un porcentaje de la renta gravable como se muestra en la tabla número dos.
 
+            Por ejemplo: si un cliente obtuvo una renta gravable de 70 millones de colones durante el año deberá pagar por los primeros 31 043 000 un 10%, luego tiene que restar a 70 millones los 31 043 000 millones, esto deja un saldo de 38 957 000 colones, sobre estos debe pagar un 20% y así sucesivamente.
 
             Tabla #1
                 Monto de la renta gravable	         Impuesto
