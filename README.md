@@ -39,3 +39,5 @@ Para optar a esos beneficios el estudiante debe de tener más de 90 en Matemáti
     Si la clasificación es C obtiene 4 puntos extra.
     Si la clasificación es D obtiene 0 puntos extra.
 Se deberá leer el nombre del estudiante, las notas de los cursos de Matemáticas, Física, Sociales, Ciencias y Español. El algoritmo deberá imprimir si el estudiante puede optar por los puntos extras o no; en caso de que pueda optar, cuál es la cantidad de puntos obtenidos.
+
+11. El algoritmo debe poder calcular los impuestos a pagar, y la comisión por servicios de contabilidad a un Cliente de la empresa Evasora S.A. Dados los ingresos, y gastos , asi como el nombre del cliente.Se calcularan impuestos de manera progresiva con tasas del 10%, 20% y 30%. Asi como comisionespor servicios según la razón de renta gravable sobre ingresos totales.
